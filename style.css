@@ -1,0 +1,13 @@
+.leftside, .rightside{
+    height: 50vh;
+    width:100%
+}
+.leftside{
+    background-color: blueviolet;
+}
+
+.rightside{
+    background-color: blue;
+}
+<link href="https://fonts.googleapis.com/css? family=Roboto" rel="stylesheet">
+span style="color:blue; padding-left:620px">forget passsword?</span>
