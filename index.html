@@ -7,6 +7,7 @@
   </style>
 </head>
 <body>
+  
   <section style="display:flex;width:100%;padding-top:0%;">
 
     <img src="Screenshot 2024-05-21 211837.png"width="80"height="25"style="position:absolute;left:24px;top:24px;"></img>
@@ -15,20 +16,23 @@
     <h1>Login<span style=padding-left:50px;></span></h1>
     <h6>Measure the performance of cryptos,get big profits!</h6>
     <button class="buttonclass"style="background:white;width:500px;height:40px;border-radius:10px;"><img src="Screenshot 2024-05-23 111618.png">Signin with google</img></button><br>
-  _____________________<font color="grey">or signin with google</font>________________________
-  <br><br>
+  _____________________<font color="grey">or signin with google________________________</font>
+  <br>
+  <br>
+  <form id="form">
 Email<br>
-    <input type="textbox"class="buttonclass"placeholder="mail@website.com"style="width: 500px;height:40px;border-radius:5px"></input><br>
-  </center>
-    Password<br>
-    <input type="password"class="buttonclass"placeholder="Min 8 characters"style="width: 500px;height:40px;border-radius:5px;"></input><br>
+    <input id="email" type="email"class="buttonclass"placeholder="mail@website.com"style="width: 500px;height:40px;border-radius:5px"></input><br>
+    <span style="color:rgb(255,4,0)"id="email_error"></span><br>
+  Password<br>
+    <input id="password" type="password"class="buttonclass" placeholder="Min 8 characters"style="width: 500px;height:40px;border-radius:5px;"></input><br>
+    <span style="color:rgb(255,4,0)"id="pass_error"></span>
     <br>
     <div style="display:flex">
       <br>
  <input type="checkbox">Rememberme</input><span style="padding-left:280px;"><font color="blue">Forgetpassword?</font></span>
 </div><br>
- <button class="buttonclass"style="background:blueviolet;width:500px;height:35px;border-color=ss"><font color="white">Login</font></button><br>
- Not registered yet?<a href="pass">Create an Account?</a>
+ <button type="submit" class="buttonclass" style="background:blueviolet;width:500px;height:35px;border-colors:purple;"><font color="white">Login</font></button></form>
+<p>Not registered yet?<font color="blue">Create an Account</font></p>
  <h6><font color="grey">&copy; 2024 bischen all right reserved</font></h6>
 </div>
 <div style="width:80%; float:left; height:580px; background:blueviolet; margin:5px;padding-top:0px;">
@@ -52,5 +56,6 @@ Email<br>
   </center>
 </div>
   </section>
+  <script src="script.js"></script>
 </body>
 </html>
